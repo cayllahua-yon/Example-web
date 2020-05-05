@@ -1,0 +1,301 @@
+/* gris oscuro = #1d252c
+gris claro = #626262
+background gris = #1b2127 
+celeste = #026fff
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+
+*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    line-height: 1.5em;
+    letter-spacing: .2px;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+h1 strong{
+    color: #026fff;
+}
+
+.header{
+    background: #1d252c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    /* box-shadow: 0px 10px 10px -6px black; */
+    position: relative;
+    box-shadow: 0px 5px 12px 1px #000000;
+}
+.logo{
+    margin: 0;
+}
+
+.menu{
+    height: inherit;   
+    
+}
+.menu ol{
+    height: inherit;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.menu ol li{
+    height: inherit;
+}
+.menu a{
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.menu-li-3{
+    display: flex;
+    align-items: center;
+}
+.link.trab{
+    height: auto;
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+/*====================hero=================*/
+
+.hero{
+    background: #1d252c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-imageContainer{
+    margin: 0;
+}
+.hero-image{
+    object-fit: cover;
+}
+h2{
+    color: #026fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.portfolio{
+    background: #fafafa;
+}
+.project{
+    display: flex;    
+    align-items: flex-start;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 25px 0 0 25px;
+    margin: 20px 0 ;
+    background: white;
+}
+.project-details{
+    width: 50%;
+}
+
+.project-title{
+    font-size: 30px;
+    margin: 0;
+}
+.project-curse{
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+    letter-spacing: .6px;
+    margin: 14px 0 0;
+}
+.project-date{
+    margin: 12px 0 5px; 
+}
+.project strong{
+   color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.project small{
+ color: gray;
+}
+.project a{
+    color: gray;
+}
+.project-url{
+    margin: 8px 0 0;
+}
+.project-description{
+    margin: 30px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-imageContainer{
+    width: 50%;
+    margin: 0;
+}
+.project-image{
+    width: 100%;
+}
+/*====================================event======================*/
+.event-list{
+    display: flex;
+    flex-wrap: wrap;    
+
+}
+.event{
+    /* border: 1px solid blue; */
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 480px;
+    background: #f4fbff;
+    
+}
+.event-imageContainer{
+    margin: 0;
+}
+.event-image{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.event-detail{
+    /* border: 1px solid red; */
+   border-radius: 3px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    padding: 20px;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+.event-title{
+    font-size: 24px;
+    margin: 0;
+}
+.event-description{
+    text-align: left;
+}
+.event-url{
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 40px;
+    border-radius: 5px;    
+   
+}
+/*========================================contactos=========================*/
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #026fff;
+    color: white;
+    font-size: 20px;
+    text-transform:uppercase;
+    font-weight: normal;
+}
+.form-email{
+
+}
+.form-email input{
+    background-image: url('../images/envelope.svg');
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: center;
+    
+    border-style: solid;
+    border-radius: 5px;
+    color: gray;
+    background-size: 24px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 50px ;
+    width: 210px;
+    font-weight: bold;
+}
+.form-email button{
+    display: block;
+    margin: 10px 0 10px;
+    padding: 10px 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.social{
+    /* border: 1px solid red; */
+
+}
+.social-link{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url('../images/twitter.svg');
+}
+.social-link.facebook{
+    background-image: url('../images/facebook.svg');
+}
+.social-link.github{
+    background-image: url('../images/github.svg');
+}
+.social-link.instagram{
+    background-image: url('../images/instagram.svg');
+}
+/*=================================footer=============================*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1d252c;
+    color: white;    
+    text-align: center;
+}
+.footer img{
+    height: 36px;
+    vertical-align: middle;
+}
+.footer a{
+    color: white;
+}
+/*==================================container=============================*/
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    display: inherit;
+    justify-content:inherit;
+    align-items: inherit;
+    margin: 0 auto;
+    height: inherit;
+    flex-wrap: inherit;
+}
